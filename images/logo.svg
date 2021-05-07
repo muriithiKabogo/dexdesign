@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="231.931" height="56.761" viewBox="0 0 231.931 56.761">
+  <g id="logo" transform="translate(-844.069 -157.542)">
+    <path id="Path_1" data-name="Path 1" d="M1055.066,531.569v28.381l-13.891,8.02-13.891-8.02v-16.04l13.891-8.02,6.766,3.907v4.113L1041.174,540l-10.329,5.963v11.927l10.329,5.964,10.329-5.964v-28.38l-10.329-5.963-24.578,14.19v28.38l24.578,14.19,24.578-14.19v-28.38Zm-7.124,24.267-6.767,3.907-6.767-3.907v-7.814l6.767-3.907,6.767,3.907Zm14.249,8.227L1041.174,576.2l-21.016-12.134V539.8l21.016-12.133,6.766,3.907v4.113l-6.766-3.907-17.454,10.077v20.154l17.454,10.077,17.454-10.077V537.739l3.563,2.057Z" transform="translate(-172.527 -366.007)" fill="#1b2135"/>
+    <text id="Dexvirtual" transform="translate(910 198)" fill="#1b2135" font-size="37" font-family="JosefinSans-SemiBold, Josefin Sans" font-weight="600" letter-spacing="-0.03em"><tspan x="0" y="0">Dex</tspan><tspan y="0" fill="#ff1e00">virtual</tspan></text>
+    <path id="Polygon_1" data-name="Polygon 1" d="M7.45,0,9.934,4.005,7.45,8.011H2.483L0,4.005,2.483,0Z" transform="translate(872.686 180.965) rotate(90)" fill="#ff1e00"/>
+  </g>
+</svg>

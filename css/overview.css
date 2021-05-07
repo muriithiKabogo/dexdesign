@@ -1,0 +1,303 @@
+.dex_overview {
+    background: #ffffff;
+}
+
+.dex_sidebar, .dex_group_chat {
+    padding: 2rem ;
+}
+
+.dex_widget_title_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.dex_widget_title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #1B2135;
+    margin: 0;
+}
+
+.dex_widget_create_btn {
+    background: #FF1E00;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    min-width: 100px;
+    text-align: center;
+}
+
+.dex_widget_create_btn:hover {
+    background: #FF1E00;
+    color: #ffffff;
+}
+
+.dex_btn_inverted {
+    background: transparent;
+    border: 1px solid #FF1E00;
+    color: #FF1E00;
+}
+
+.dex_card {
+    background: #F8F8F8;
+    border-radius: 5px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.dex_event_date {
+    background: #59CE8F;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.dex_event_date .dex_event-time {
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    padding-left: 1rem;
+}
+
+.dex_card_menu {
+    position: relative;
+}
+
+.dex_menu_image {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.dex_menu-dropdown {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 10px);
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(141,165,229, 0.16);
+    padding: 1rem;
+    display: none;
+}
+
+.dex_menu-dropdown.dex_active {
+    display: block;
+}
+
+.dex_menu-dropdown a {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #1B2135;
+    min-width: 100px;
+}
+
+.dex_menu-dropdown a:last-child {
+    display: block;
+    margin-bottom: 0;
+    color: #1B2135;
+    min-width: 100px;
+}
+
+.dex_student_count {
+    color: #59CE8F;
+}
+
+.dex_student_count img {
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    margin-right: 0.6rem;
+}
+
+.dex_group_title_box {
+    display: flex;
+    align-items: center;
+}
+
+.dex_group_profile_pic {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.dex_author_profile_pic {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.dex_group_title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #1B2135;
+    margin-right: 0.7rem;
+}
+
+.dex_group_member_count {
+    font-size: 14px;
+}
+
+.dex_group_members_container {
+    position: relative;
+    width: 70%;
+    margin-bottom: 2rem;
+}
+
+.dex_group_members {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    margin-top: 1rem;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    position: relative;
+}
+
+.dex_group_members::-webkit-scrollbar {
+    display: none;
+}
+
+.dex_group_members_pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.dex_arrow_forward {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    right: -2rem;
+    transform: translateY(-50%);
+}
+
+.dex_post_votes, .dex_comment_votes {
+    border: 1px solid #1B1F37;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    display: flex;
+    color: #1B2135;
+}
+
+.dex_post_votes div, .dex_comment_votes div {
+    margin-right: 0.8rem;
+    cursor: pointer;
+}
+
+.dex_post_votes img, .dex_comment_votes img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 0.2rem;
+}
+
+.dex_comment_votes {
+    border: none;
+    padding-left: 0;
+    margin-right: 2rem;
+}
+
+.dex_comment_reply {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #1B2135;
+}
+
+.dex_comment_reply img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.dex_comment_count {
+    color: #59CE8F;
+    border-bottom: 1px solid #59CE8F;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.dex_comment_count img {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 0.8rem;
+}
+
+.dex_comment_content {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.dex_reply_comment {
+    margin-top: 2rem;
+}
+
+.dex_reply_comment .dex_comment_content {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.dex_post_box, .dex_reply_box {
+    display: none;
+}
+
+.dex_post_box.dex_active, .dex_reply_box.dex_active, .dex_comment_section.dex_active {
+    display: block;
+}
+
+.dex_comment_box, .dex_post_box {
+    border: 1px solid #1B2135;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.dex_comment_box textarea, .dex_post_box textarea {
+    background: transparent;
+    border: 0;
+    width: 100%;
+    resize: none;
+}
+
+.dex_comment_box textarea:focus, .dex_comment_box button:focus, .dex_post_box button:focus {
+    outline: none;
+}
+
+.dex_comment_box button, .dex_post_box button {
+    border: 0;
+    background: transparent;
+    min-width: 0;
+    color: #FF1E00;
+    font-weight: 600;
+}
+
+.dex_comment_section {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .dex_group_members_container {
+        width: calc(100% - 2rem);
+    }
+
+    .dex_sidebar, .dex_group_chat {
+        padding: 0.5rem ;
+    }
+
+}

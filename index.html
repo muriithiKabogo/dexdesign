@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Overview | Dexvirtual</title>
+    <!-- core CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/overview.css" rel="stylesheet">
+<body>
+<section class="main-view dex_overview">
+    <div class="nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="inner-nav">
+                        <div id="menuToggle">
+                            <input type="checkbox">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <ul id="menu">
+                                <li><a href="#">Overview</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Member</a></li>
+                                <li><a href="#">Settings</a></li>
+                                <li><a href="#">Logout</a></li>
+                            </ul>
+                        </div>
+                        <div class="logo">
+                            <img src="images/logo.svg" alt="Dex Virtual">
+                        </div>
+                        <div class="links">
+                            <ul>
+                                <li class="active">
+                                    <a href="#">Overview</a>
+                                </li>
+                                <li>
+                                    <a href="#">Events</a>
+                                </li>
+                                <li>
+                                    <a href="#">Members</a>
+                                </li>
+                                <li>
+                                    <a href="#">Settings</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="other-link">
+                            <ul>
+                                <li>
+                                    <a href="#">Help Center</a>
+                                </li>
+                                <li>
+                                    <a href="#">Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <h1 class="dex_title pt-5 pl-lg-4 mb-0">
+            Overview
+        </h1>
+        <div class="row">
+            <div class="col-lg-8 border-right">
+                <div class="dex_group_chat">
+                    <div class="dex_group_title_box">
+                        <img src="images/africa%20school.png" class="dex_group_profile_pic"/>
+                        <span class="dex_group_title">Feb 2021 Online</span>
+                        <span class="dex_group_member_count">(44 Members)</span>
+                    </div>
+                    <div class="dex_group_members_container">
+                        <div class="dex_group_members">
+                            <img src="images/1.png" class="dex_group_members_pic"/>
+                            <img src="images/2.png" class="dex_group_members_pic"/>
+                            <img src="images/3.png" class="dex_group_members_pic"/>
+                            <img src="images/4.png" class="dex_group_members_pic"/>
+                            <img src="images/1.png" class="dex_group_members_pic"/>
+                            <img src="images/2.png" class="dex_group_members_pic"/>
+                            <img src="images/3.png" class="dex_group_members_pic"/>
+                            <img src="images/4.png" class="dex_group_members_pic"/>
+                            <img src="images/1.png" class="dex_group_members_pic"/>
+                            <img src="images/2.png" class="dex_group_members_pic"/>
+                            <img src="images/3.png" class="dex_group_members_pic"/>
+                            <img src="images/4.png" class="dex_group_members_pic"/>
+                            <img src="images/1.png" class="dex_group_members_pic"/>
+                            <img src="images/2.png" class="dex_group_members_pic"/>
+                            <img src="images/3.png" class="dex_group_members_pic"/>
+                            <img src="images/4.png" class="dex_group_members_pic"/>
+                            <img src="images/1.png" class="dex_group_members_pic"/>
+                            <img src="images/2.png" class="dex_group_members_pic"/>
+                            <img src="images/3.png" class="dex_group_members_pic"/>
+                            <img src="images/4.png" class="dex_group_members_pic"/>
+                            <img src="images/1.png" class="dex_group_members_pic"/>
+                            <img src="images/2.png" class="dex_group_members_pic"/>
+                            <img src="images/3.png" class="dex_group_members_pic"/>
+                            <img src="images/4.png" class="dex_group_members_pic"/>
+                        </div>
+                        <img src="images/ionic-ios-arrow-forward.svg" class="dex_arrow_forward"/>
+                    </div>
+                    <div class="dex_widget_title_box mb-3">
+                        <h3 class="dex_widget_title small">Group Posts</h3>
+                        <a href="#" class="dex_widget_create_btn stateToggle" data-droptarget="writePost">Write a Post</a>
+                    </div>
+                    <div class="dex_post_box mb-4" id="writePost">
+                        <form action="#">
+                            <textarea rows="4" placeholder="Write something"></textarea>
+                            <div class="text-right">
+                                <button type="submit">Post</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="dex_group_posts">
+                        <div class="dex_post dex_card">
+                            <div class="d-flex justify-content-between align-items-center mb-5">
+                                <div class="d-flex align-items-center">
+                                    <img src="images/africa%20school.png" class="dex_author_profile_pic"/>
+                                    <div>
+                                        <h3 class="dex_widget_title mb-0">
+                                            Africa School
+                                        </h3>
+                                        <p class="mb-0">3/24/2021</p>
+                                    </div>
+                                </div>
+                                <div class="dex_card_menu">
+                                    <img src="images/menu.svg" class="dex_menu_image stateToggle" data-droptarget="postMenu1">
+                                    <div class="dex_menu-dropdown" id="postMenu1">
+                                        <a href="#">Edit</a>
+                                        <a href="#">Share</a>
+                                        <hr class="p-0">
+                                        <a href="#">Delete</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mb-5">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="dex_post_votes">
+                                    <div class="dex_upvote">
+                                        <img src="images/upvote_active.svg"/>
+                                        20
+                                    </div>
+                                    <div class="dex_downvote">
+                                        <img src="images/downvote.svg"/>
+                                        1
+                                    </div>
+                                </div>
+                                <div class="dex_comment_count stateToggle" data-droptarget="commentSection1">
+                                    <img src="images/comment.svg"/>
+                                    2 Comments
+                                </div>
+                            </div>
+                            <div class="dex_comment_section" id="commentSection1">
+                                <hr class="p-0 my-5"/>
+                                <div class="dex_comment">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/africa%20school.png" class="dex_author_profile_pic"/>
+                                            <div>
+                                                <h3 class="dex_widget_title mb-0">
+                                                    Africa School
+                                                </h3>
+                                                <p class="mb-0">3/24/2021</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="dex_comment_content">
+                                        <p class="mb-1">
+                                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua at vero eos et.
+                                        </p>
+                                        <div class="d-flex">
+                                            <div class="dex_comment_votes">
+                                                <div class="dex_upvote">
+                                                    <img src="images/upvote_active.svg"/>
+                                                    20
+                                                </div>
+                                                <div class="dex_downvote">
+                                                    <img src="images/downvote.svg"/>
+                                                    1
+                                                </div>
+                                            </div>
+                                            <div class="dex_comment_reply stateToggle" data-droptarget="replyBox1">
+                                                <img src="images/reply.svg"/>
+                                                Reply
+                                            </div>
+                                        </div>
+
+                                        <!-- Reply box -->
+                                        <div class="dex_comment_box dex_reply_box" id="replyBox1">
+                                            <form action="#">
+                                                <textarea rows="4" placeholder="Write a comment"></textarea>
+                                                <div class="text-right">
+                                                    <button type="submit">Reply</button>
+                                                </div>
+                                            </form>
+                                        </div>
+
+                                        <!-- Reply comment -->
+                                        <div class="dex_comment dex_reply_comment">
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <div class="d-flex align-items-center">
+                                                    <img src="images/africa%20school.png" class="dex_author_profile_pic"/>
+                                                    <div>
+                                                        <h3 class="dex_widget_title mb-0">
+                                                            Africa School
+                                                        </h3>
+                                                        <p class="mb-0">3/24/2021</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="dex_comment_content">
+                                                <p class="mb-1">
+                                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua at vero eos et.
+                                                </p>
+                                                <div class="d-flex">
+                                                    <div class="dex_comment_votes">
+                                                        <div class="dex_upvote">
+                                                            <img src="images/upvote_active.svg"/>
+                                                            20
+                                                        </div>
+                                                        <div class="dex_downvote">
+                                                            <img src="images/downvote.svg"/>
+                                                            1
+                                                        </div>
+                                                    </div>
+                                                    <div class="dex_comment_reply stateToggle" data-droptarget="replyBox2">
+                                                        <img src="images/reply.svg"/>
+                                                        Reply
+                                                    </div>
+                                                </div>
+
+                                                <!-- Reply box -->
+                                                <div class="dex_comment_box dex_reply_box" id="replyBox2">
+                                                    <form action="#">
+                                                        <textarea rows="4" placeholder="Write a comment"></textarea>
+                                                        <div class="text-right">
+                                                            <button type="submit">Reply</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dex_comment_box">
+                                    <form action="#">
+                                        <textarea rows="4" placeholder="Write a comment"></textarea>
+                                        <div class="text-right">
+                                            <button type="submit">Comment</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="dex_post dex_card">
+                            <div class="d-flex justify-content-between align-items-center mb-5">
+                                <div class="d-flex align-items-center">
+                                    <img src="images/africa%20school.png" class="dex_author_profile_pic"/>
+                                    <div>
+                                        <h3 class="dex_widget_title mb-0">
+                                            Africa School
+                                        </h3>
+                                        <p class="mb-0">3/24/2021</p>
+                                    </div>
+                                </div>
+                                <div class="dex_card_menu">
+                                    <img src="images/menu.svg" class="dex_menu_image stateToggle" data-droptarget="postMenu2">
+                                    <div class="dex_menu-dropdown" id="postMenu2">
+                                        <a href="#">Edit</a>
+                                        <a href="#">Share</a>
+                                        <hr class="p-0">
+                                        <a href="#">Delete</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="mb-5">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="dex_post_votes">
+                                    <div class="dex_upvote">
+                                        <img src="images/upvote_active.svg"/>
+                                        20
+                                    </div>
+                                    <div class="dex_downvote">
+                                        <img src="images/downvote.svg"/>
+                                        1
+                                    </div>
+                                </div>
+                                <div class="dex_comment_count stateToggle" data-droptarget="commentSection2">
+                                    <img src="images/comment.svg"/>
+                                    2 Comments
+                                </div>
+                            </div>
+                            <div class="dex_comment_section" id="commentSection2">
+                                <hr class="p-0 my-5"/>
+                                <div class="dex_comment">
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <div class="d-flex align-items-center">
+                                            <img src="images/africa%20school.png" class="dex_author_profile_pic"/>
+                                            <div>
+                                                <h3 class="dex_widget_title mb-0">
+                                                    Africa School
+                                                </h3>
+                                                <p class="mb-0">3/24/2021</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="dex_comment_content">
+                                        <p class="mb-1">
+                                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua at vero eos et.
+                                        </p>
+                                        <div class="d-flex">
+                                            <div class="dex_comment_votes">
+                                                <div class="dex_upvote">
+                                                    <img src="images/upvote_active.svg"/>
+                                                    20
+                                                </div>
+                                                <div class="dex_downvote">
+                                                    <img src="images/downvote.svg"/>
+                                                    1
+                                                </div>
+                                            </div>
+                                            <div class="dex_comment_reply stateToggle" data-droptarget="replyBox3">
+                                                <img src="images/reply.svg"/>
+                                                Reply
+                                            </div>
+                                        </div>
+
+                                        <!-- Reply box -->
+                                        <div class="dex_comment_box dex_reply_box" id="replyBox3">
+                                            <form action="#">
+                                                <textarea rows="4" placeholder="Write a comment"></textarea>
+                                                <div class="text-right">
+                                                    <button type="submit">Reply</button>
+                                                </div>
+                                            </form>
+                                        </div>
+
+                                        <!-- Reply comment -->
+                                        <div class="dex_comment dex_reply_comment">
+                                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                                <div class="d-flex align-items-center">
+                                                    <img src="images/africa%20school.png" class="dex_author_profile_pic"/>
+                                                    <div>
+                                                        <h3 class="dex_widget_title mb-0">
+                                                            Africa School
+                                                        </h3>
+                                                        <p class="mb-0">3/24/2021</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="dex_comment_content">
+                                                <p class="mb-1">
+                                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua at vero eos et.
+                                                </p>
+                                                <div class="d-flex">
+                                                    <div class="dex_comment_votes">
+                                                        <div class="dex_upvote">
+                                                            <img src="images/upvote_active.svg"/>
+                                                            20
+                                                        </div>
+                                                        <div class="dex_downvote">
+                                                            <img src="images/downvote.svg"/>
+                                                            1
+                                                        </div>
+                                                    </div>
+                                                    <div class="dex_comment_reply stateToggle" data-droptarget="replyBox4">
+                                                        <img src="images/reply.svg"/>
+                                                        Reply
+                                                    </div>
+                                                </div>
+
+                                                <!-- Reply box -->
+                                                <div class="dex_comment_box dex_reply_box" id="replyBox4">
+                                                    <form action="#">
+                                                        <textarea rows="4" placeholder="Write a comment"></textarea>
+                                                        <div class="text-right">
+                                                            <button type="submit">Reply</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="dex_comment_box">
+                                    <form action="#">
+                                        <textarea rows="4" placeholder="Write a comment"></textarea>
+                                        <div class="text-right">
+                                            <button type="submit">Comment</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="dex_sidebar">
+                    <hr class="py-0 my-5 d-lg-none"/>
+                    <div class="dex_widget_title_box">
+                        <h3 class="dex_widget_title">
+                            Upcoming Events
+                        </h3>
+                        <a href="#" class="dex_widget_create_btn">Create Events</a>
+                    </div>
+                    <div class="dex_card">
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <div class="dex_event_date">
+                                Sep 11
+                                <span class="dex_event-time">
+                                    15:00-16:00
+                                </span>
+                            </div>
+                            <div class="dex_card_menu">
+                                <img src="images/menu.svg" class="dex_menu_image stateToggle" data-droptarget="widgetMenu1">
+                                <div class="dex_menu-dropdown" id="widgetMenu1">
+                                    <a href="#">Edit</a>
+                                    <a href="#">Share</a>
+                                    <hr class="p-0">
+                                    <a href="#">Delete</a>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="dex_widget_title">
+                            Group Office Hours
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.
+                        </p>
+                        <div class="text-right">
+                            <a href="#" class="dex_widget_create_btn dex_btn_inverted">Join</a>
+                        </div>
+                    </div>
+                    <div class="dex_card">
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <div class="dex_event_date">
+                                Sep 11
+                                <span class="dex_event-time">
+                                    15:00-16:00
+                                </span>
+                            </div>
+                            <div class="dex_card_menu">
+                                <img src="images/menu.svg" class="dex_menu_image stateToggle" data-droptarget="widgetMenu2">
+                                <div class="dex_menu-dropdown" id="widgetMenu2">
+                                    <a href="#">Edit</a>
+                                    <a href="#">Share</a>
+                                    <hr class="p-0">
+                                    <a href="#">Delete</a>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="dex_widget_title">
+                            Group Office Hours
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.
+                        </p>
+                        <div class="text-right">
+                            <a href="#" class="dex_widget_create_btn dex_btn_inverted">Join</a>
+                        </div>
+                    </div>
+                    <hr class="py-0 my-5"/>
+                    <div class="dex_widget_title_box">
+                        <h3 class="dex_widget_title">
+                            Classrooms
+                        </h3>
+                        <a href="#" class="dex_widget_create_btn">Create Classrooms</a>
+                    </div>
+                    <div class="dex_card">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h3 class="dex_widget_title mb-0">
+                                Your first classroom
+                            </h3>
+                            <div class="dex_card_menu">
+                                <img src="images/menu.svg" class="dex_menu_image stateToggle" data-droptarget="widgetMenu3">
+                                <div class="dex_menu-dropdown" id="widgetMenu3">
+                                    <a href="#">Edit</a>
+                                    <a href="#">Share</a>
+                                    <hr class="p-0">
+                                    <a href="#">Delete</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dex_student_count mb-2">
+                            <img src="images/graduation-hat.svg"/>
+                            30 Students
+                        </div>
+                        <p class="mb-0">
+                            Tell students what the focus of this classroom is…
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/overview.js"></script>
+</body>
+</html>
